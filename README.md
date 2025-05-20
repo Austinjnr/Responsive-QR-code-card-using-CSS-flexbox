@@ -5,8 +5,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Screenshots
 
 <p align="center">
-  <img src="./images/desktop-screenshot.png" alt="Desktop Screenshot" width="60%" style="margin-right: 10px;" />
-  <img src="./images/mobile-screenshot.png" alt="Mobile Screenshot" width="30%" />
+  <img src="./images/desktop-screenshot.png" alt="Desktop Screenshot" width="60%" height="100%" style="margin-right: 10px;" />
+  <img src="./images/mobile-screenshot.png" alt="Mobile Screenshot" width="30%" height="100%"/>
 </p>
 
 ## 🔗 Links
