@@ -1,0 +1,75 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.qr-card,
+.qr-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.qr-card {
+  background-color: hsl(0, 0%, 100%);
+  width: 270px;
+  border-radius: 8px;
+  gap: 15px;
+  padding: 10px;
+}
+.qr-image {
+  width: 270px;
+  height: 200px;
+}
+.qr-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.qr-info {
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+p,
+h1 {
+  margin: 0;
+  font-family: Outfit, sans-serif;
+}
+.qr-info .sub-title {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.qr-info .info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+}
+@media (max-width: 375px) {
+  .qr-card {
+    width: 80%;
+    padding: 15px;
+    border-radius: 12px;
+  }
+  .qr-image {
+    width: 100%;
+  }
+  .qr-info .sub-title {
+  font-size: 22px;
+  text-align: center;
+}
+}
