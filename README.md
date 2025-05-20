@@ -4,8 +4,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Screenshots
 
-![Desktop](./images/desktop-screenshot.png)
-![Mobile](./images/mobile-screenshot.png)
+<p align="center">
+  <img src="./images/desktop-screenshot.png" alt="Desktop Screenshot" width="60%" style="margin-right: 10px;" />
+  <img src="./images/mobile-screenshot.png" alt="Mobile Screenshot" width="30%" />
+</p>
 
 ## 🔗 Links
 
